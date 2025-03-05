@@ -61,7 +61,6 @@ header {
   width: 550px;
   scroll-snap-align: start;
   min-width: 100%;
-
 }
 
 ::-webkit-scrollbar {
@@ -69,7 +68,7 @@ header {
 }
 
 footer {
-  padding: 0 3px 15px 3px;
+  padding: 0 3px 25px 3px;
 }
 
 .reaction {
