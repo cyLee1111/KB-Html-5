@@ -1,0 +1,125 @@
+#main {
+    width: 550px;
+    min-height: auto;
+    margin: 0 auto;
+}
+#content{
+  width: 700px;
+  /* min-height: 100vh; */
+  margin: 0 auto;
+  margin-top:10px;
+}
+header{
+  margin-top:40px;
+  display: flex;
+  gap:80px;
+}
+
+.image_wrapper{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid gray;
+}
+
+.profile_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.first{
+  display: flex;
+  gap: 10px;
+}
+
+.userid{
+  margin-top:10px;
+  font-size:small;
+}
+
+.buttons{
+  border: none;
+  border-radius: 10%;
+  padding: 4% 12%;
+  height: 25px;
+  font-weight: 600;
+  font-size: 10px;
+  margin: 6px;
+}
+
+.setting {
+  margin-top: 10px;
+  margin-left:12px;
+  width: 25px;
+  height: 19px;
+}
+
+.second{
+  display:flex;
+}
+
+.lowopacitytext{
+  opacity: 0.6;
+  font-size: 12px;
+  margin-right:3px;
+}
+
+.number{
+  font-size: 12px;
+  font-weight: 550;
+  margin-right:30px;
+}
+
+.third{
+  margin-top: 25px;
+}
+
+.username{
+  font-size:10px;
+  font-weight: 600;
+}
+
+.introduce{
+  font-size:10px;
+}
+
+hr{
+  margin-top: 50px;
+  opacity: 0.5;
+}
+nav{
+  text-align: center;
+}
+.menu{
+  font-size:10px;
+  font-weight: 600;
+  text-decoration: none;
+  /* color: #8d8d8d; */
+  color:#333;
+  transition: .3s;
+  margin-bottom:1px;
+}
+.menu:hover{
+  color:#333;
+}
+
+.setting{
+  width: 9px;
+  height: 9px;
+  margin-right: 2px;
+  color:#8d8d8d;
+}
+
+section{
+  margin-top:15px;
+}
+.images{
+  width: 229px;
+  height: 300px;
+}
+
+.first_images{
+  text-align: center;
+}
