@@ -9,6 +9,13 @@
   margin: 0 auto;
   margin-top:10px;
 }
+
+.logo{
+  width:150px;
+}
+.logohr{
+  margin-top:0px;
+}
 header{
   margin-top:40px;
   display: flex;
