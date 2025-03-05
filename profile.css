@@ -23,8 +23,9 @@ header{
 }
 
 .image_wrapper{
-  width: 100px;
-  height: 100px;
+  margin-top:20px;
+  width: 105px;
+  height: 105px;
   border-radius: 50%;
   border: 1px solid gray;
 }
@@ -64,17 +65,18 @@ header{
 }
 
 .second{
+  margin-top:14px;
   display:flex;
 }
 
 .lowopacitytext{
   opacity: 0.6;
-  font-size: 12px;
+  font-size: 10px;
   margin-right:3px;
 }
 
 .number{
-  font-size: 12px;
+  font-size: 10px;
   font-weight: 550;
   margin-right:30px;
 }
