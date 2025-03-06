@@ -1,0 +1,157 @@
+.form {
+  width: 1200px;
+  height: 700px;
+  background-color: white;
+  margin: auto;
+  display: inline-flex;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px grey;
+}
+.photo {
+  width: 700px;
+}
+.comment-area {
+  height: 700px;
+  width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.uploader {
+  position: relative;
+  border-bottom: 1px solid lightgrey;
+  height: 65px;
+}
+.uploader .nickname {
+  position: absolute;
+  left: 14%;
+  top: 35%;
+}
+.comment-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 445px;
+}
+.comment {
+  position: relative;
+  height: 80px;
+  margin: 5px 0;
+}
+.profile-img {
+  width: 42px;
+  height: 42px;
+  border: 1px solid lightgray;
+  border-radius: 50px;
+  position: absolute;
+  top: 20%;
+  left: 3%;
+}
+.com {
+  display: flex;
+  position: absolute;
+  left: 14%;
+  top: 20%;
+}
+.nickname {
+  font-weight: bold;
+  margin-right: 12px;
+}
+.comment-date {
+  position: absolute;
+  left: 14%;
+  top: 57%;
+  color: grey;
+  font-size: 0.9em;
+}
+.like-count {
+  position: absolute;
+  left: 23%;
+  top: 60%;
+  color: grey;
+  font-size: 0.93em;
+  font-weight: bold;
+}
+.make-reply {
+  position: absolute;
+  left: 40%;
+  top: 60%;
+  color: grey;
+  font-size: 0.93em;
+  font-weight: bold;
+}
+.miniheart {
+  width: 15px;
+  position: absolute;
+  left: 90%;
+  top: 25%;
+}
+.footer {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  height: 125px;
+  position: relative;
+}
+#heart {
+  position: absolute;
+  left: 3%;
+  top: 10%;
+}
+#chat {
+  position: absolute;
+  left: 13%;
+  top: 10%;
+}
+#plane {
+  position: absolute;
+  left: 23%;
+  top: 10%;
+}
+#bookmark {
+  position: absolute;
+  left: 90%;
+  top: 10%;
+}
+.wholike {
+  position: absolute;
+  left: 4%;
+  top: 45%;
+  font-weight: bold;
+}
+.upload-date {
+  position: absolute;
+  left: 4%;
+  top: 70%;
+  color: grey;
+}
+.make-comment {
+  display: flex;
+  position: relative;
+  height: 65px;
+}
+#smile {
+  position: absolute;
+  left: 2%;
+  top: 25%;
+}
+.mkcmt {
+  position: absolute;
+  left: 12%;
+  top: 35%;
+  color: darkgray;
+}
+.upload {
+  position: absolute;
+  left: 90%;
+  top: 35%;
+  font-weight: bold;
+  color: rgb(183, 214, 224);
+}
+
+.icon {
+  width: 35px;
+}
