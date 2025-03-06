@@ -1,72 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-    <link rel="stylesheet" href="profile.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT'stagram</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
     <!-- <div>
         <img class="logo" src="./assets/Instagram-Wordmark-Black-Logo.wine.svg">
         <hr class="logohr">
 
     </div> -->
     <div id="main">
-        <header>
-            <div class="profile_left">
-                <div class="image_wrapper">
-                    <a href="#"> <!--스토리로 이동-->
-                        <img class="profile_image" src="./assets/gom.jpg"/>
-                    </a>
-                </div>
+      <header>
+        <div class="profile_left">
+          <div class="image_wrapper">
+            <a href="./story.html">
+              <!--스토리로 이동-->
+              <img class="profile_image" src="./assets/Penguins.jpg" />
+            </a>
+          </div>
+        </div>
+
+        <div class="profile_right">
+          <div class="first">
+            <div class="userid">kb_team5</div>
+            <div>
+              <input class="buttons" type="button" value="프로필 편집" />
             </div>
-            
-            <div class="profile_right">
-                <div class="first">
-                    <div class="userid">kb_team5</div>
-                    <div><input class="buttons" type="button" value="프로필 편집"></div>
-                    <div><input class="buttons" type="button" value="보관된 스토리 보기" onclick="location.href='mystories.html'"></div>
-                    <!-- <a href="#"><img class="setting" src="./assets/setting.svg"></a> -->
-                </div>
-                <div class="second">
-                    <div class="lowopacitytext">게시물</div>
-                    <div class="number">6</div>
-                    <div class="lowopacitytext">팔로워</div>
-                    <div class="number">27</div>
-                    <div class="lowopacitytext">팔로우</div>
-                    <div class="number">27</div>
-                </div>
-                <div class="third">
-                    <div class="username">삼삼오오</div>
-                    <div class="introduce">안녕하세요. 저희는 삼삼오오조입니다!</div>
-                </div>
+            <div>
+              <input
+                class="buttons"
+                type="button"
+                value="보관된 스토리 보기"
+                onclick="location.href='mystories.html'"
+              />
             </div>
-        </header>
+            <!-- <a href="#"><img class="setting" src="./assets/setting.svg"></a> -->
+          </div>
+          <div class="second">
+            <div class="lowopacitytext">게시물</div>
+            <div class="number">6</div>
+            <div class="lowopacitytext">팔로워</div>
+            <div class="number">27</div>
+            <div class="lowopacitytext">팔로우</div>
+            <div class="number">27</div>
+          </div>
+          <div class="third">
+            <div class="username">삼삼오오</div>
+            <div class="introduce">안녕하세요. 저희는 삼삼오오조입니다!</div>
+          </div>
+        </div>
+      </header>
     </div>
     <div id="content">
-        <nav>
-            <hr>
-            <a href="#" class="menu"><img class="setting" src="./assets/frame-grid-icon.svg"> 게시물</a>
-        </nav>
-        <section>
-            <div class="first_images">
-                <img class="images" src="./assets/1-1.JPG" alt="게시물1">
-                <img class="images" src="./assets/2-1.JPG" alt="게시물2">
-                <img class="images" src="./assets/3-1.JPG" alt="게시물1">
-            </div>
-            <div class="first_images">
-                <img class="images" src="./assets/1-1.JPG" alt="게시물1">
-                <img class="images" src="./assets/2-1.JPG" alt="게시물2">
-                <img class="images" src="./assets/3-1.JPG" alt="게시물1">
-            </div>
-            <div class="first_images">
-                <img class="images" src="./assets/1-1.JPG" alt="게시물1">
-                <img class="images" src="./assets/2-1.JPG" alt="게시물2">
-                <img class="images" src="./assets/3-1.JPG" alt="게시물1">
-            </div>
-        </section>
+      <nav>
+        <hr />
+        <a href="#" class="menu"
+          ><img class="setting" src="./assets/frame-grid-icon.svg" /> 게시물</a
+        >
+      </nav>
+      <section>
+        <div class="first_images">
+          <a href="./feed.html#feed1">
+            <img class="images" src="./assets/1-1.JPG" alt="게시물1" />
+          </a>
+          <a href="./feed.html#feed2">
+            <img class="images" src="./assets/2-1.JPG" alt="게시물2" />
+          </a>
+          <a href="./feed.html#feed3">
+            <img class="images" src="./assets/3-1.JPG" alt="게시물1" />
+          </a>
+        </div>
+        <div class="first_images">
+          <a href="./feed.html#feed4">
+            <img class="images" src="./assets/4-1.jpeg" alt="게시물1" />
+          </a>
+          <a href="./feed.html#feed5">
+            <img class="images" src="./assets/5-1.jpeg" alt="게시물2" />
+          </a>
+          <a href="./feed.html#feed6">
+            <img class="images" src="./assets/6-1.jpeg" alt="게시물1" />
+          </a>
+        </div>
+        <div class="first_images">
+          <a href="./feed.html#feed7">
+            <img class="images" src="./assets/7-1.jpeg" alt="게시물1" />
+          </a>
+        </div>
+      </section>
     </div>
-  
-</body>
+  </body>
 </html>

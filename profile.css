@@ -1,29 +1,29 @@
 #main {
-    width: 550px;
-    min-height: auto;
-    margin: 0 auto;
+  width: 550px;
+  min-height: auto;
+  margin: 0 auto;
 }
-#content{
+#content {
   width: 700px;
   /* min-height: 100vh; */
   margin: 0 auto;
-  margin-top:10px;
+  margin-top: 10px;
 }
 
-.logo{
-  width:150px;
+.logo {
+  width: 150px;
 }
-.logohr{
-  margin-top:0px;
+.logohr {
+  margin-top: 0px;
 }
-header{
-  margin-top:40px;
+header {
+  margin-top: 40px;
   display: flex;
-  gap:80px;
+  gap: 80px;
 }
 
-.image_wrapper{
-  margin-top:20px;
+.image_wrapper {
+  margin-top: 20px;
   width: 105px;
   height: 105px;
   border-radius: 50%;
@@ -37,17 +37,17 @@ header{
   border-radius: 50%;
 }
 
-.first{
+.first {
   display: flex;
   gap: 10px;
 }
 
-.userid{
-  margin-top:10px;
-  font-size:small;
+.userid {
+  margin-top: 10px;
+  font-size: small;
 }
 
-.buttons{
+.buttons {
   border: none;
   border-radius: 10%;
   padding: 4% 12%;
@@ -59,76 +59,76 @@ header{
 
 .setting {
   margin-top: 10px;
-  margin-left:12px;
+  margin-left: 12px;
   width: 25px;
   height: 19px;
 }
 
-.second{
-  margin-top:14px;
-  display:flex;
+.second {
+  margin-top: 14px;
+  display: flex;
 }
 
-.lowopacitytext{
+.lowopacitytext {
   opacity: 0.6;
   font-size: 10px;
-  margin-right:3px;
+  margin-right: 3px;
 }
 
-.number{
+.number {
   font-size: 10px;
   font-weight: 550;
-  margin-right:30px;
+  margin-right: 30px;
 }
 
-.third{
+.third {
   margin-top: 25px;
 }
 
-.username{
-  font-size:10px;
+.username {
+  font-size: 10px;
   font-weight: 600;
 }
 
-.introduce{
-  font-size:10px;
+.introduce {
+  font-size: 10px;
 }
 
-hr{
+hr {
   margin-top: 50px;
   opacity: 0.5;
 }
-nav{
+nav {
   text-align: center;
 }
-.menu{
-  font-size:10px;
+.menu {
+  font-size: 10px;
   font-weight: 600;
   text-decoration: none;
   /* color: #8d8d8d; */
-  color:#333;
-  transition: .3s;
-  margin-bottom:1px;
+  color: #333;
+  transition: 0.3s;
+  margin-bottom: 1px;
 }
-.menu:hover{
-  color:#333;
+.menu:hover {
+  color: #333;
 }
 
-.setting{
+.setting {
   width: 9px;
   height: 9px;
   margin-right: 2px;
-  color:#8d8d8d;
+  color: #8d8d8d;
 }
 
-section{
-  margin-top:15px;
+section {
+  margin-top: 15px;
 }
-.images{
+.images {
   width: 229px;
-  height: 300px;
+  height: 229px;
 }
 
-.first_images{
-  text-align: center;
+.first_images {
+  text-align: left;
 }
