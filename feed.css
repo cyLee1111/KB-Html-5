@@ -77,6 +77,26 @@ footer {
   gap: 10px;
 }
 
+.like-button img {
+  width: 28px;
+  height: auto;
+}
+
+.heart {
+  display: none;
+}
+
+label {
+  cursor: pointer;
+}
+
+:checked + .like-button .heart-fill {
+  display: none;
+}
+:checked + .like-button .heart {
+  display: inline-block;
+}
+
 .heart {
   width: 28px;
   height: 28px;
